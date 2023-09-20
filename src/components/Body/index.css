@@ -1,0 +1,50 @@
+/* Write your CSS here */
+@media screen and (min-width: 577px) {
+  .body-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+  }
+}
+
+.left-Navbar {
+  background-color: #cbd5e1;
+  padding: 20px;
+  flex-grow: 1;
+}
+.left-navbar-heading {
+  color: #475569;
+}
+.left-para {
+  color: #64748b;
+}
+
+.content-container {
+  background-color: #e2e8f0;
+  padding: 20px;
+  flex-grow: 1;
+}
+.content-heading {
+  color: #475569;
+}
+.content-para {
+  color: #64748b;
+}
+.right-Navbar {
+  background-color: #cbd5e1;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.right-navbar-items {
+  border: 2px solid #64748b;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 576px) {
+  .body-container {
+    flex-direction: column;
+  }
+}

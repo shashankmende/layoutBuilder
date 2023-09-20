@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.outer-input-container {
+  background-color: #475569;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  width: 80%;
+}
+.checkbox-label-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.content-label {
+  font-family: 'Roboto';
+  color: white;
+  margin-left: 10px;
+}
